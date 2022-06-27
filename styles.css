@@ -21,6 +21,16 @@ body{
   display: flex;
   grid-row: 2/3;
   align-items: center;
+  justify-content:space-between;
+}
+
+.header .bottom .greetings {
+  display: flex;
+}
+
+.header .bottom .header-buttons {
+  display: flex;
+  margin: 30px;
 }
 .side-bar {
   grid-column: 1/2;
