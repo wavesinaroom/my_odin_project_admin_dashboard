@@ -1,4 +1,23 @@
-p {
-  font-family: fantasy;
-  font-size: 40px;
+body{
+  display: grid;
+  grid-template: 1fr, 3fr;
+}
+
+.header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+
+}
+
+.side-bar {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display: grid;
+}
+
+.board {
+  display:grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
