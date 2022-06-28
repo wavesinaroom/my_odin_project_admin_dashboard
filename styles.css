@@ -1,9 +1,15 @@
+*{
+  font-family: "Advent Pro",monospace,sans-serif, courier;
+}
+
 body{
   display: grid;
   grid-template: 1fr 3fr/ 1fr 3fr;
 }
 
 .header {
+  background-color: #27272A;
+  color: orange;
   grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
@@ -33,6 +39,8 @@ body{
   margin: 30px;
 }
 .side-bar {
+  background-color: #27272A;
+  color: orange;
   grid-column: 1/2;
   grid-row: 1/3;
   display: grid;
@@ -52,6 +60,7 @@ body{
 }
 
 .board {
+  background-color: #E2E8F0;
   display:grid;
   grid-template: 1fr 1fr 1fr / 2fr 1fr;
   grid-column: 2/3;
@@ -67,6 +76,7 @@ body{
 }
 
 .board .projects .project-card{
+  background-color: #F1F5F9;
   display: flex;
   flex-direction: column;
 }
@@ -76,8 +86,8 @@ body{
   justify-content: flex-end;
 }
 
-
 .board .announcements {
+  background-color: #F1F5F9;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   display: flex;
@@ -85,6 +95,7 @@ body{
 }
 
 .board .trending {
+  background-color: #F1F5F9;
   grid-column: 2/3;
   grid-row: 2/4;
   display: flex;
