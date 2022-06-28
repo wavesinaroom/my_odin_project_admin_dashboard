@@ -38,6 +38,19 @@ body{
   display: grid;
 }
 
+.side-bar .dashboard-logo {
+  display: flex;
+  align-items: center;
+}
+
+.side-bar .side-bar-menu > div {
+  display: flex;
+}
+
+.side-bar .side-bar-settings > div {
+  display: flex;
+}
+
 .board {
   display:grid;
   grid-template: 1fr 1fr 1fr / 2fr 1fr;
@@ -50,7 +63,7 @@ body{
   display: grid;
   grid-template: 1fr 1fr 1fr / 1fr 1fr;
   grid-column: 1 / 2;
-  grid-row: 1 / 4;k
+  grid-row: 1 / 4;
 }
 
 .board .announcements {
