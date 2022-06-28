@@ -80,9 +80,13 @@ body{
 .board .announcements {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .board .trending {
   grid-column: 2/3;
   grid-row: 2/4;
+  display: flex;
+  flex-direction: column;
 }
