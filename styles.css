@@ -66,6 +66,17 @@ body{
   grid-row: 1 / 4;
 }
 
+.board .projects .project-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.board .projects .project-card > div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 .board .announcements {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
