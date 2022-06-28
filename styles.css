@@ -44,7 +44,7 @@ body{
   color: orange;
   grid-column: 1/2;
   grid-row: 1/3;
-  display: grid;
+  display :grid;
 }
 
 .side-bar .dashboard-logo {
@@ -63,21 +63,21 @@ body{
 .board {
   background-color: #E2E8F0;
   display:grid;
-  grid-template: 1fr 1fr 1fr / 2fr 1fr;
+  grid-template: 1fr 1fr / 2fr 1fr;
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
 .board .projects
 {
-  margin: 30px;
   display: grid;
   grid-template: 1fr 1fr 1fr / 1fr 1fr;
   grid-column: 1 / 2;
-  grid-row: 1 / 4;
+  grid-row: 1 / 2;
 }
 
 .board .projects .project-card{
+  padding: 20px;
   margin: 20px;
   border-radius: 10px;
   background-color: #F1F5F9;
@@ -91,22 +91,28 @@ body{
   justify-content: flex-end;
 }
 
+.board .announcements-trending {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+  grid-row: 1 / 2;
+}
+
 .board .announcements {
-  margin: 30px;
+  margin: 20px;
+  padding: 20px;
   border-radius: 10px;
   background-color: #F1F5F9;
-  grid-column: 2 / 3;
   grid-row: 1 / 2;
   display: flex;
   flex-direction: column;
 }
 
 .board .trending {
-  margin: 30px;
+  margin: 20px;
+  padding: 20px;
   border-radius: 10px;
   background-color: #F1F5F9;
-  grid-column: 2/3;
-  grid-row: 2/4;
+  grid-row: 2/3;
   display: flex;
   flex-direction: column;
 }
