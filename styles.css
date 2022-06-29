@@ -6,6 +6,7 @@
 body{
   display: grid;
   grid-template: 30% 70%/ 10% 90%;
+  margin: 0px;
 }
 
 .header {
@@ -117,4 +118,8 @@ body{
   grid-row: 2/3;
   display: flex;
   flex-direction: column;
+}
+
+#test{
+  filter: invert(60%) sepia(82%) saturate(602%) hue-rotate(359deg) brightness(102%) contrast(105%);
 }
