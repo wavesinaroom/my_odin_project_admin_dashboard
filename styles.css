@@ -5,7 +5,7 @@
 
 body{
   display: grid;
-  grid-template: 1fr 3fr/ 1fr 3fr;
+  grid-template: 30% 70%/ 10% 90%;
 }
 
 .header {
@@ -44,7 +44,7 @@ body{
   color: orange;
   grid-column: 1/2;
   grid-row: 1/3;
-  display :grid;
+  display: grid;
 }
 
 .side-bar .dashboard-logo {
@@ -54,16 +54,18 @@ body{
 
 .side-bar .side-bar-menu > div {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .side-bar .side-bar-settings > div {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .board {
   background-color: #E2E8F0;
   display:grid;
-  grid-template: 1fr 1fr / 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-column: 2/3;
   grid-row: 2/3;
 }
