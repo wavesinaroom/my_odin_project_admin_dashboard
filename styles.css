@@ -120,6 +120,6 @@ body{
   flex-direction: column;
 }
 
-#test{
+img{
   filter: invert(60%) sepia(82%) saturate(602%) hue-rotate(359deg) brightness(102%) contrast(105%);
 }
