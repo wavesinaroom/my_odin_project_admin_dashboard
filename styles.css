@@ -51,6 +51,23 @@ body{
   border-radius: 5px;
 }
 
+.header .top img:nth-child(3){
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  max-width: 15%;
+  max-height: 15%;
+  border-radius: 100px;
+}
+
+.header .bottom .greetings img:nth-child(1){
+  background-size: cover;
+  background-position: center;
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 50%;
+}
+
 .side-bar {
   background-color: #27272A;
   color: orange;
@@ -61,16 +78,20 @@ body{
 
 .side-bar .dashboard-logo {
   display: flex;
+  margin-left: 30px;
   align-items: center;
 }
 
 .side-bar .side-bar-menu > div {
   display: flex;
+  margin-left: 30px;
   margin-bottom: 30px;
+  justify-content: space-around;
 }
 
 .side-bar .side-bar-settings > div {
   display: flex;
+  margin-left: 30px;
   margin-bottom: 30px;
 }
 
@@ -131,6 +152,6 @@ body{
   flex-direction: column;
 }
 
-img{
+#icon{
   filter: invert(60%) sepia(82%) saturate(602%) hue-rotate(359deg) brightness(102%) contrast(105%);
 }
