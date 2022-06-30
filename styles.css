@@ -133,7 +133,13 @@ body{
   grid-row: 1 / 2;
 }
 
-
+.board .announcements-trending .trending .trending-user img:first-child{
+  max-width: 80px;
+  max-height: 80px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
 
 
 .board .announcements {
