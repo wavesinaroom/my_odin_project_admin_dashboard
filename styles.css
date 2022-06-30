@@ -126,11 +126,15 @@ body{
   justify-content: flex-end;
 }
 
+
 .board .announcements-trending {
   display: grid;
   grid-template: 1fr 1fr / 1fr;
   grid-row: 1 / 2;
 }
+
+
+
 
 .board .announcements {
   margin: 20px;
