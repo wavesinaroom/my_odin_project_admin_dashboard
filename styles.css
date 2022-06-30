@@ -68,12 +68,14 @@ button:active{
   border-radius: 5px;
 }
 
-.header .top img:nth-child(2){
+.header .top img:nth-child(4){
   background-color: blue;
   background-size: cover;
   background-position: center;
+  max-width: 20%;
+  max-height: 20%;
   border-radius: 50%;
-  border-radius: 100px;
+  border-radius: 150px;
 }
 
 .header .bottom .greetings img:nth-child(1){
