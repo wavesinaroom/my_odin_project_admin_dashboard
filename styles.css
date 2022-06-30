@@ -134,11 +134,12 @@ body{
 }
 
 .board .announcements-trending .trending .trending-user img:first-child{
+  display: block;
   max-width: 80px;
   max-height: 80px;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 150px;
 }
 
 
