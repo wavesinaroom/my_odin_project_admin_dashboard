@@ -142,6 +142,10 @@ body{
   border-radius: 150px;
 }
 
+.board .announcements-trending .trending .trending-user
+{
+  display: flex;
+}
 
 .board .announcements {
   margin: 20px;
