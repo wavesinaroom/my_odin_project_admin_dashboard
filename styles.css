@@ -1,6 +1,6 @@
 *{
   font-family: "Advent Pro",monospace,sans-serif, courier;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body{
@@ -17,6 +17,7 @@ button{
   padding-left: 35px;
   border-radius: 30px;
   font-size: 16px;
+  font-weight: bold;
 }
 
 button:active{
@@ -145,6 +146,10 @@ button:active{
   justify-content: flex-end;
 }
 
+.board .projects .project-card .project-icons>*{
+  margin-top: 30px;
+  margin-left: 40px;
+}
 
 .board .announcements-trending {
   display: grid;
