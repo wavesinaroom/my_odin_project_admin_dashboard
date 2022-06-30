@@ -9,6 +9,22 @@ body{
   margin: 0px;
 }
 
+button{
+  margin: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+button:active{
+  transform: scale(95%);
+  background-color: #E2E8F0;
+  transition-duration: 10;
+}
+
 .header {
   background-color: #27272A;
   color: orange;
