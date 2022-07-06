@@ -23,7 +23,6 @@ button{
 button:active{
   transform: scale(95%);
   background-color: #E2E8F0;
-  transition-duration: 10;
 }
 
 .header {
@@ -96,6 +95,7 @@ button:active{
   color: orange;
   grid-column: 1/2;
   grid-row: 1/3;
+  min-width: 100px;
 }
 
 .side-bar .dashboard-logo {
@@ -103,7 +103,6 @@ button:active{
   margin-left: 30px;
   margin-top: 60px;
   margin-bottom: 60px;
-  align-items: center;
 }
 
 .side-bar .side-bar-menu{
@@ -115,14 +114,12 @@ button:active{
   display: flex;
   margin-left: 30px;
   margin-bottom: 15px;
-  justify-content: flex-start;
 }
 
 .side-bar .side-bar-settings > div {
   display: flex;
   margin-left: 30px;
   margin-bottom: 15px;
-  justify-content: flex-start;
 }
 
 .board {
@@ -146,8 +143,8 @@ button:active{
   margin: 20px;
   border-radius: 10px;
   background-color: #F1F5F9;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
   box-shadow: 6px 6px 8px;
 }
 
@@ -156,14 +153,31 @@ button:active{
   justify-content: flex-end;
 }
 
-.board .projects .project-card .project-icons>*{
-  margin-top: 30px;
-  margin-left: 40px;
+.board .projects .project-card .project-title
+{
+  grid-row: 1 / 2;
 }
+
+.board .projects .project-card .project-text
+{
+  grid-row: 2/3;
+}
+
+.board .projects .project-card .project-icons
+{
+  grid-row: 3/4;
+}
+
+.board .projects .project-card .project-icons>*{
+  margin-left: 40px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
 
 .board .announcements-trending {
   display: grid;
-  grid-template: 1fr 1fr / 1fr;
+  grid-template: 1fr 1fr/ 1fr;
   grid-row: 1 / 2;
   box-shadow: 8px 8px 8px #27272A;
 }
@@ -172,6 +186,8 @@ button:active{
   display: block;
   max-width: 80px;
   max-height: 80px;
+  min-width: 80px;
+  min-height: 80px;
   background-size: cover;
   background-position: center;
   border-radius: 150px;
@@ -180,7 +196,12 @@ button:active{
 .board .announcements-trending .trending .trending-user
 {
   display: flex;
-  margin: 30px;
+  margin-bottom: 30px;
+}
+
+.board .announcements-trending .trending .trending-user img:first-child
+{
+  margin-right: 40px;
 }
 
 .board .announcements {
