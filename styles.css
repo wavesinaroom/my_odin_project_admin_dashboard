@@ -6,11 +6,12 @@
 body{
   display: grid;
   grid-template: 10% 90%/ 15% 85%;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 button{
-  margin: 30px;
+  margin: 10px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-right: 35px;
@@ -136,12 +137,12 @@ button:active{
   display: grid;
   grid-template: 1fr 1fr 1fr / 1fr 1fr;
   grid-column: 1 / 2;
-  grid-row: 1 / 2;
+  grid-row: 1/3;
 }
 
 .board .projects .project-card{
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 10px;
   background-color: #F1F5F9;
   display: grid;
@@ -152,7 +153,7 @@ button:active{
 .board .projects .project-card > div{
   display: flex;
   justify-content: flex-end;
-}
+  }
 
 .board .projects .project-card .project-title
 {
@@ -180,7 +181,7 @@ button:active{
 .board .announcements-trending {
   display: grid;
   grid-template: 1fr 1fr/ 1fr;
-  grid-row: 1 / 2;
+  grid-row: 1 / 3;
   grid-column: 2/3;
   box-shadow: 8px 8px 8px #27272A;
 }
@@ -191,6 +192,7 @@ button:active{
   max-height: 80px;
   min-width: 80px;
   min-height: 80px;
+  margin-right: 30px;
   background-size: cover;
   background-position: center;
   border-radius: 150px;
@@ -202,13 +204,8 @@ button:active{
   margin-bottom: 30px;
 }
 
-.board .announcements-trending .trending .trending-user img:first-child
-{
-  margin-right: 40px;
-}
-
-.board .announcements {
-  margin: 20px;
+.board .announcements-trending .announcements {
+  margin: 10px;
   padding: 20px;
   border-radius: 10px;
   background-color: #F1F5F9;
@@ -218,8 +215,8 @@ button:active{
   box-shadow: 8px 8px 8px #27272A;
 }
 
-.board .trending {
-  margin: 20px;
+.board .announcements-trending .trending {
+  margin: 10px;
   padding: 20px;
   border-radius: 10px;
   background-color: #F1F5F9;
