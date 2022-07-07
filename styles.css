@@ -5,7 +5,7 @@
 
 body{
   display: grid;
-  grid-template: 30% 70%/ 10% 90%;
+  grid-template: 10% 90%/ 15% 85%;
   margin: 0px;
 }
 
