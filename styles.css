@@ -27,7 +27,7 @@ button:active{
 
 .header {
   background-color: #27272A;
-  color: orange;
+  color: #ff9700;
   grid-column: 2/3;
   grid-row: 1/2;
 }
@@ -91,7 +91,7 @@ button:active{
 
 .side-bar {
   background-color: #27272A;
-  color: orange;
+  color: #ff9700;
   grid-column: 1/2;
   grid-row: 1/3;
   min-width: 100px;
@@ -230,6 +230,6 @@ button:active{
 }
 
 #icon{
-  filter: invert(60%) sepia(82%) saturate(602%) hue-rotate(359deg) brightness(102%) contrast(105%);
+  filter: invert(60%) sepia(34%) saturate(2263%) hue-rotate(358deg) brightness(102%) contrast(106%);
   margin-right: 20px;
 }
