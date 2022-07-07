@@ -166,6 +166,7 @@ button:active{
 .board .projects .project-card .project-icons
 {
   grid-row: 3/4;
+  align-items: flex-end;
 }
 
 .board .projects .project-card .project-icons>*{
